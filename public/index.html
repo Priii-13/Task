@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nova Design-Tech Studio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800 ">
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-extrabold text-indigo-600">Nova Studio</h1>
+      <nav class="space-x-6 hidden md:block">
+        <a href="#about" class="hover:text-indigo-600">About</a>
+        <a href="#services" class="hover:text-indigo-600">Services</a>
+        <a href="#contact" class="hover:text-indigo-600">Contact</a>
+      </nav>
+      <a href="#contact" class="md:hidden text-indigo-600">Contact</a>
+    </div>
+
+
+  </header>
+
+
+  <section class="relative bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white py-28 overflow-hidden" id="hero">
+  <div class="container mx-auto px-6 text-center" data-aos="zoom-in">
+    <h1 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
+      Where <span class="text-yellow-300">Design</span> Meets <span class="text-cyan-200">Technology</span>
+    </h1>
+    <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
+      We build beautiful, functional, and modern digital experiences tailored to your vision.
+    </p>
+    <a href="#contact" class="inline-block bg-white text-indigo-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition">
+      Let’s Collaborate
+    </a>
+  </div>
+
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6 text-center max-w-4xl">
+      <h3 class="text-3xl font-bold mb-4 text-indigo-600">Our Philosophy</h3>
+      <p class="text-lg text-gray-700">
+        At Nova Studio, creativity drives everything we do. We blend human-centered design with cutting-edge technologies to craft digital solutions that are as intuitive as they are powerful. Whether you’re launching a new product or rebranding, we help bring your vision to life — beautifully and effectively.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-20">
+    <div class="container mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold text-indigo-600 mb-12 "data-aos="fade-up">What We Offer</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+
+
+
+        <!-- Service Card 1 -->
+      <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition duration-300 overflow-hidden"data-aos="fade-up" data-aos-delay="0">
+        <img src="https://images.unsplash.com/photo-1559028006-448665bd7c7f?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Web Development" class="w-full h-48 object-cover" />
+        <div class="p-6 text-left">
+          <h4 class="text-xl font-semibold text-indigo-700 mb-2">Web Development</h4>
+          <p class="text-gray-600 text-sm">Fast, responsive, and scalable websites using the latest technologies and frameworks.</p>
+        </div>
+      </div>
+        <!-- Service Card 2 -->
+      <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition duration-300 overflow-hidden"data-aos="fade-up" data-aos-delay="100">
+        <img src="https://images.unsplash.com/photo-1633533452148-a9657d2c9a5f?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"alt="Brand-identity" class="w-full h-48 object-cover">
+        <div class="p-6 text-left">
+          <h4 class="text-xl font-semibold text-indigo-700 mb-2">Brand Identity</h4>
+          <p class="text-gray-600 text-sm">Logos, brand systems, and consistent visual storytelling to make your brand stand out.</p>
+        </div>
+      </div>
+        <!-- Service Card 3 -->
+      <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition duration-300 overflow-hidden"data-aos="fade-up" data-aos-delay="200">
+        <img src="https://plus.unsplash.com/premium_photo-1661331840715-086514dff6c2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="UI/UX Design" class="w-full h-48 object-cover" />
+        <div class="p-6 text-left">
+          <h4 class="text-xl font-semibold text-indigo-700 mb-2">UI/UX Design</h4>
+          <p class="text-gray-600 text-sm">User-centered interfaces and seamless experiences across web and mobile platforms.</p>
+        </div>
+      </div>
+        
+        <!-- Service Card 4 -->
+      <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition duration-300 overflow-hidden"data-aos="fade-up" data-aos-delay="300">
+        <img src="https://plus.unsplash.com/premium_photo-1661326248013-3107a4b2bd91?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="App Design" class="w-full h-48 object-cover" />
+        <div class="p-6 text-left">
+          <h4 class="text-xl font-semibold text-indigo-700 mb-2">Mobile App Design</h4>
+          <p class="text-gray-600 text-sm">Beautiful and intuitive app designs that deliver a smooth user experience on all devices.</p>
+        </div>
+      </div>
+       
+     <!-- Service Card 5 -->
+      <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition duration-300 overflow-hidden"data-aos="fade-up" data-aos-delay="400">
+        <img src="https://plus.unsplash.com/premium_photo-1716205364228-cc164698fd1d?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Prototyping" class="w-full h-48 object-cover" />
+        <div class="p-6 text-left">
+          <h4 class="text-xl font-semibold text-indigo-700 mb-2">Prototyping</h4>
+          <p class="text-gray-600 text-sm">Clickable wireframes and design flows to test and refine user experiences early.</p>
+        </div>
+      </div>
+       <!-- Service Card 6 -->
+      <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition duration-300 overflow-hidden"data-aos="fade-up" data-aos-delay="500">
+        <img src="https://plus.unsplash.com/premium_photo-1683288537199-3a102f1a3959?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="SEO Optimization" class="w-full h-48 object-cover" />
+        <div class="p-6 text-left">
+          <h4 class="text-xl font-semibold text-indigo-700 mb-2">SEO & Optimization</h4>
+          <p class="text-gray-600 text-sm">Speed, structure, and keyword-driven strategies to boost visibility and performance.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Highlights Section
+<section id="portfolio" class="py-24 bg-white">
+  <div class="container mx-auto px-6">
+    <h3 class="text-4xl font-bold text-indigo-600 text-center mb-16">Portfolio Highlights</h3>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      
+      <div class="relative overflow-hidden rounded-xl shadow-lg">
+        <img src="https://via.placeholder.com/800x500" alt="Project 1" class="w-full h-80 object-cover" />
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+          <div class="text-white text-center px-6">
+            <h4 class="text-2xl font-bold mb-2">Creative Branding</h4>
+            <p class="text-base">Identity revamp for a startup.</p>
+          </div>
+        </div>
+      </div>
+
+  
+      <div class="relative overflow-hidden rounded-xl shadow-lg">
+        <img src="https://via.placeholder.com/800x500" alt="Project 2" class="w-full h-80 object-cover" />
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+          <div class="text-white text-center px-6">
+            <h4 class="text-2xl font-bold mb-2">E-commerce UI</h4>
+            <p class="text-base">Online shopping experience design.</p>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="relative overflow-hidden rounded-xl shadow-lg">
+        <img src="https://via.placeholder.com/800x500" alt="Project 3" class="w-full h-80 object-cover" />
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+          <div class="text-white text-center px-6">
+            <h4 class="text-2xl font-bold mb-2">Health App UI</h4>
+            <p class="text-base">Clean, accessible mobile interface.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section> -->
+
+  <!-- Portfolio Highlights Section -->
+<section id="portfolio" class="py-20 bg-white">
+  <div class="container mx-auto px-6">
+    <h3 class="text-3xl font-bold text-indigo-600 text-center mb-12">Portfolio Highlights</h3>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      
+      <!-- Project 1 -->
+      <div class="relative group overflow-hidden rounded-lg">
+        <img src="https://plus.unsplash.com/premium_photo-1661328251929-c530c82c59a4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project 1" class="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-110" />
+        <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+          <div class="text-white text-center px-4">
+            <h4 class="text-xl font-semibold mb-1">Creative Branding</h4>
+            <p class="text-sm">Identity revamp for a startup.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="relative group overflow-hidden rounded-lg">
+        <img src="https://images.unsplash.com/photo-1632813404574-b63d317ee258?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project 2" class="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-110" />
+        <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+          <div class="text-white text-center px-4">
+            <h4 class="text-xl font-semibold mb-1">E-commerce UI</h4>
+            <p class="text-sm">Online shopping experience design.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="relative group overflow-hidden rounded-lg">
+        <img src="https://plus.unsplash.com/premium_photo-1661764321097-9fae7c838806?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGVhbHRoJTIwYXBwJTIwdWl8ZW58MHx8MHx8fDA%3D" alt="Project 3" class="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-110" />
+        <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+          <div class="text-white text-center px-4">
+            <h4 class="text-xl font-semibold mb-1">Health App UI</h4>
+            <p class="text-sm">Clean, accessible mobile interface.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Why Choose Us -->
+<section class="py-20 bg-white ">
+  <div class="container mx-auto px-6 text-center max-w-5xl">
+    <h3 class="text-3xl font-bold text-indigo-600 mb-12" data-aos="fade-up">Why Choose Us</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <div class="bg-gray-50 p-6 rounded-xl shadow hover:shadow-lg transition " data-aos="zoom-in" data-aos-delay="0">
+        <div class="text-indigo-600 text-4xl mb-4">
+          <i class="fas fa-lightbulb"></i>
+        </div>
+        <h4 class="text-xl font-semibold mb-2">Creative Vision</h4>
+        <p class="text-gray-600">We design with innovation, always pushing for bold, unique, and beautiful experiences.</p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-xl shadow hover:shadow-lg transition " data-aos="zoom-in" data-aos-delay="100">
+        <div class="text-indigo-600 text-4xl mb-4">
+          <i class="fas fa-tools"></i>
+        </div>
+        <h4 class="text-xl font-semibold mb-2">Tech Expertise</h4>
+        <p class="text-gray-600">From design systems to scalable code, our developers build solutions that perform and last.</p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-xl shadow hover:shadow-lg transition "data-aos="zoom-in" data-aos-delay="200">
+        <div class="text-indigo-600 text-4xl mb-4">
+          <i class="fas fa-user-friends"></i>
+        </div>
+        <h4 class="text-xl font-semibold mb-2">Client-Centric</h4>
+        <p class="text-gray-600">We listen, adapt, and partner with you to ensure every detail aligns with your goals.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+
+  <section class="py-20 bg-gray-100" id="testimonials">
+  <div class="container mx-auto px-6 text-center max-w-5xl">
+    <h3 class="text-3xl font-bold text-indigo-600 mb-12" data-aos="fade-up">What Our Clients Say</h3>
+
+    <div class="grid md:grid-cols-2 gap-10">
+
+      <!-- Testimonial 1 -->
+      <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300" data-aos="fade-up">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="client" class="w-16 h-16 mx-auto rounded-full mb-4">
+        <p class="italic text-gray-700 mb-3">“Nova Studio brought our vision to life with creativity and technical expertise. Highly professional and responsive.”</p>
+        <div class="text-yellow-400 mb-2">★★★★★</div>
+        <h4 class="text-indigo-600 font-semibold">Arjun Mehta</h4>
+        <p class="text-sm text-gray-500">Product Manager</p>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300" data-aos="fade-up" data-aos-delay="100">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="client" class="w-16 h-16 mx-auto rounded-full mb-4">
+        <p class="italic text-gray-700 mb-3">“The team delivered a stunning UI/UX for our app. Smooth process, great results.”</p>
+        <div class="text-yellow-400 mb-2">★★★★★</div>
+        <h4 class="text-indigo-600 font-semibold">Sana Verma</h4>
+        <p class="text-sm text-gray-500">Startup Founder</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact CTA -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="container mx-auto px-6 text-center max-w-xl">
+      <h3 class="text-3xl font-bold text-indigo-600 mb-6">Let’s Build Something Great</h3>
+      <p class="mb-8 text-gray-700">Ready to bring your vision to life? Drop us a message and let’s make magic together.</p>
+
+      <!-- Open contact.html in a new tab -->
+      <a href="/contact.html"
+         class="inline-block bg-indigo-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-indigo-700 transition">
+        Contact Us
+      </a>
+    </div>
+  </section>
+<footer class="bg-gray-900 text-gray-300 text-center py-6">
+  <div>
+    <h1 class="text-xl font-bold text-white">Nova Studio</h1>
+    <p class="text-sm mb-4">Where Design Meets Technology</p>
+
+    <div class="flex justify-center space-x-4 text-xl text-white mb-4">
+      <a href="https://x.com/Priiii_2005"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/priyanka-jhala-7b7b8b28b/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/priiii_134/"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+
+  <!-- 👇 This will push to bottom when content is short -->
+  <p class="text-sm text-gray-500 mt-auto">© 2025 Nova Design-Tech Studio. All rights reserved.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    offset: 200,
+    once: true
+  });
+
+</script>
+
+
+</body>
+</html>

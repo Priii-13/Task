@@ -23,7 +23,7 @@ app.get('/thankyou.html', (req, res) => {
 
 // Handle contact form submission
 app.post('/contact', async (req, res) => {
-  const { name, email, subject, message } = req.body;
+  const { name, email, message } = req.body;
 
   // Configure transporter
   const transporter = nodemailer.createTransport({
